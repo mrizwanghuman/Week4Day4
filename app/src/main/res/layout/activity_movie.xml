@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.week4day4.MovieActivity">
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/tvUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/tvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Sign Out"
+        android:onClick="signout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Movies" />
+
+    <EditText
+        android:id="@+id/etMovieName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Movie Name" />
+
+    <EditText
+        android:id="@+id/etMovieType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Movie Type" />
+
+    <EditText
+        android:id="@+id/etMovieYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Movie Year" />
+    <Button
+        android:onClick="addNewMovie"
+        android:text="Add Movie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:onClick="onAddMovie"
+        android:text="Get Movies"
+        android:id="@+id/btnGetMovies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

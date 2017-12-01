@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Week4Day4</string>
+    <string name="facebook_app_id">324555438025294</string>
+    <string name="fb_login_protocol_scheme">fb324555438025294</string>
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">LLHYeFde4H5KfcMlV4SNsa9WA</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">3IEyJRzUppUx2LMHg4iQSFWDv0fpmZ0dKK6jhBdonpFOugq91k</string>
+</resources>
